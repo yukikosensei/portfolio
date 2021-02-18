@@ -1,0 +1,116 @@
+
+
+
+.header {
+  background-color: #F9C3DB;
+  height: 90px;
+  display: flex;
+}
+
+.header h1 {
+  margin: 20px;
+  display: inline-block;
+  color: skyblue;
+  font-family: Georgia, serif;
+}
+
+.header ul li {
+  height: 90px;
+  list-style: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, serif;
+}
+
+.header li:hover {
+  opacity: 0.3;
+}
+
+.translation {
+  text-align: right;
+  padding: 20px;
+}
+
+
+
+
+.biography {
+  text-align: center;
+}
+
+.biography p {
+  word-break: break-all;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px;
+}
+
+.icon {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+h2 {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  text-align: center;
+  color: #F9C3DB;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  margin-top: 100px;
+}
+.skills {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-item {
+  margin: 0 40px;
+}
+
+.pic:hover {
+  opacity: 0.5;
+}
+
+.pic {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic a {
+  padding: 20px;
+}
+
+
+.education {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.experience {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+li {
+  text-align: left;
+}
+
+ul {
+  list-style-position: inside;
+}
