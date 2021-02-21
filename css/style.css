@@ -81,7 +81,7 @@ h1 {
   margin: 0 40px;
 }
 
-.pic:hover {
+.pic a:hover {
   opacity: 0.5;
 }
 
@@ -90,10 +90,12 @@ h1 {
   margin-right: 100px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  user-select: auto;
 }
 
 .pic a {
-  padding: 20px;
+  margin: 20px;
 }
 
 
@@ -115,9 +117,3 @@ ul {
   list-style-position: inside;
 }
 
-@media screen and (max-width: 700px) {
-  .pic {
-    display: flex;
-    align-items: center;
-  }
-}
