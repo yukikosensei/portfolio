@@ -1,5 +1,7 @@
 
-
+body {
+  margin: 0 auto;
+}
 
 .header {
   background-color: #F9C3DB;
@@ -117,3 +119,21 @@ ul {
   list-style-position: inside;
 }
 
+@media (max-width:700px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+  .biography p {
+    margin: 0;
+  }
+
+  .education {
+    margin: 0;
+  }
+
+  .experience {
+    margin: 0;
+  }
+}
