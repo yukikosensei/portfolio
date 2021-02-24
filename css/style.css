@@ -2,11 +2,15 @@
 body {
   margin: 0 auto;
 }
+.header-phone {
+  visibility: hidden;
+}
 
 .header {
   background-color: #F9C3DB;
   height: 90px;
   display: flex;
+  justify-content: center;
 }
 
 .header h1 {
@@ -135,5 +139,36 @@ ul {
 
   .experience {
     margin: 0;
+  }
+
+  .header-phone {
+    visibility: visible;
+
+  }
+
+  #input {
+    display: none;
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+  }
+
+  .content {
+    background-color: pink;
+    width: 200px;
+    height: 100%;
+    transform: translateX(-200px);
+  }
+
+  #input:checked ~ .content {
+    transform:translateX(0px);
+  }
+
+  .header ul {
+    visibility: hidden;
   }
 }
