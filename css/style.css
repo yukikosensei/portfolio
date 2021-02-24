@@ -11,6 +11,10 @@ body {
   height: 90px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header h1 {
@@ -143,6 +147,8 @@ ul {
 
   .header-phone {
     visibility: visible;
+    position: fixed;
+    top: 90px;
 
   }
 
